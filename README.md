@@ -23,6 +23,7 @@ Browser → NodePort → user-service → (product-service + order-service)
                          |
                    Persistent Storage
 ```
+![Architecture](screenshots/architecture.png)
 
 This setup shows how services interact inside Kubernetes and how traffic flows from outside to inside the cluster.
 
